@@ -1,3 +1,11 @@
+**Czytaj po polsku: [polish](README.md)**
+
+Course GoIT - Module 'React' - HomeWork #06 - task "Movie Search"
+
+Link: https://macbeebas.github.io/goit-react-hw-05-movies/
+
+Build by:
+
 # React homework template
 
 This project was created with
