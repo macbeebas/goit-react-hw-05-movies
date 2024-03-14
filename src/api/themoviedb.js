@@ -34,3 +34,25 @@ export async function fetchTrendingList(page) {
     return;
   }
 }
+
+export async function fetchMovieSearch(query) {
+  const url = `${URL_SEARCH_MOVIE}?api_key=${API_KEY}&query=${query}&language=en-US`;
+  try {
+    const response = await axios.get(`${url}`);
+    const movies = response.data.results;
+    return { movies };
+  } catch (error) {
+    console.log(error.message);
+  }
+}
+
+export async function fetchMovieInfo(movie_id) {
+  const url = `${URL_MOVIE_INFO}${movie_id}?api_key=${API_KEY}&language=en-US`;
+  try {
+    const response = await axios.get(`${url}`);
+    const movie = response.data;
+    return { movie };
+  } catch (error) {
+    console.log(error.message);
+  }
+}
