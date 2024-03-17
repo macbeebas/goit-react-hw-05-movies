@@ -24,7 +24,7 @@ const Layout = () => {
           </StyledLink>
         </nav>
       </header>
-      <main>
+      <main className={css.main}>
         <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
