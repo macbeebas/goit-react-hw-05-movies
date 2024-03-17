@@ -52,7 +52,7 @@ export async function getMovieInfo(movie_id) {
     return { movie };
   } catch (error) {
     console.log(error.message);
-    Notify.warning(`the movie/s "${query}" doesn't have intro`);
+    Notify.warning(`the movie/s ${query} doesn't have intro`);
     return;
   }
 }
