@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/4.b7edfbeb.chunk.css","mappings":"AAAA,0BACI,mBACJ,CCFA,qBACI,yBAEJ","sources":["components/TrendingList/TrendingList.module.css","pages/Home/Home.module.css"],"sourcesContent":[".link {\n    padding-bottom: 10px;\n}",".header {\n    text-decoration: underline;\n    /* outline: 1px solid orange; */\n}"],"names":[],"sourceRoot":""}
